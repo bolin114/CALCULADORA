@@ -1,0 +1,65 @@
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 13px; /*a,olda la calculadora*/
+    background: linear-gradient(150deg, #c23030, #c23030, #c23030);
+    /* background-color: #dc4c46; */
+    width: 335px; /*El ancho de la calculadora*/
+    height: 500px; /*El tamaño de alto del cuadro de la calculadora*/
+    border-radius: 25px; /*Bordes*/
+    border-top: 1px solid #000000; /*Arriba*/
+    border-left: 2px solid #000000; /*Isquierda*/
+    border-right: 6px solid #000000; /*Derecha*/
+    border-bottom: 9px solid #000000; /*Abajo*/
+}
+
+.calculadora td button{
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 295px; 
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    overflow-y: auto; /*scroll*/
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+}
+
+/* Colores para los botones */
+.numero_color{
+    border-top: 1px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 4px solid #000000;
+    background: linear-gradient(150deg, #605aff, #74ccff, #93fff6);
+    /* background: rgb(25, 0, 255); */
+}
+
+.operador_color{
+    border-top: 1px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 4px solid #000000;
+    background: linear-gradient(150deg, #a1a1a1, #ffffff, #a1a1a1);
+}
+
+.reset_igual_color{
+    border-top: 1px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 4px solid #000000;
+    background: linear-gradient(150deg, #fffc67a7, #fffc67a7, #fffc67a7);
+}
