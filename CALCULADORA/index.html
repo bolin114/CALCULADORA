@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<!-- init es la funcion que se llamara para hacer las operaciones -->
+<body onload="init();"> 
+    <table class="calculadora">
+        <tr>
+<!-- coldspan es para decir que seran 4 celdas en el relnglon,   span es para hacer referencia al componente y incluir el resultado de la operacion-->
+            <td colspan="4"> <span id="resultado"></span></td> 
+        </tr>
+        <tr>
+            <td><button class="numero_color" id="siete">7</button></td>
+            <td><button class="numero_color" id="ocho">8</button></td>
+            <td><button class="numero_color" id="nueve">9</button></td>
+            <td><button class="operador_color" id="division">/</button></td>
+        </tr>
+        <tr>
+            <td><button class="numero_color" id="cuatro">4</button></td>
+            <td><button class="numero_color" id="cinco">5</button></td>
+            <td><button class="numero_color" id="seis">6</button></td>
+            <td><button class="operador_color" id="multiplicacion">*</button></td>
+        </tr>
+        <tr>
+            <td><button class="numero_color" id="uno">1</button></td>
+            <td><button class="numero_color" id="dos">2</button></td>
+            <td><button class="numero_color" id="tres">3</button></td>
+            <td><button class="operador_color" id="resta">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="reset_igual_color" id="reset">C</button></td>
+            <td><button class="numero_color" id="cero">0</button></td>
+            <td><button class="reset_igual_color" id="igual">=</button></td>
+            <td><button class="operador_color" id="suma">+</button></td>
+        </tr>
+    </table>
+    <script src="funcion.js"></script> <!-- Llamo al codigo -->
+</body>
+</html>
